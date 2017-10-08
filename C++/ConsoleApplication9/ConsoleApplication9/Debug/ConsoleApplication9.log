@@ -1,0 +1,41 @@
+﻿生成启动时间为 2017/5/16 15:26:00。
+     1>项目“E:\My_Code\ConsoleApplication9\ConsoleApplication9\ConsoleApplication9.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Visual Studio\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\ConsoleApplication9.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ConsoleApplication9.cpp
+         ConsoleApplication9.cpp
+     1>d:\visual studio\vc\include\xutility(371): error C2039: “iterator_category”: 不是“std::pair<double,double>”的成员
+                 e:\my_code\consoleapplication9\consoleapplication9\consoleapplication9.cpp(13): 参见对正在编译的类 模板 实例化“std::iterator_traits<std::pair<double,double>>”的引用
+     1>d:\visual studio\vc\include\xutility(371): error C2146: 语法错误: 缺少“;”(在标识符“iterator_category”的前面)
+     1>d:\visual studio\vc\include\xutility(371): error C4430: 缺少类型说明符 - 假定为 int。注意:  C++ 不支持默认 int
+     1>d:\visual studio\vc\include\xutility(371): error C2602: “std::iterator_traits<std::pair<double,double>>::iterator_category”不是“std::iterator_traits<std::pair<double,double>>”基类的成员
+                 d:\visual studio\vc\include\xutility(371) : 参见“std::iterator_traits<std::pair<double,double>>::iterator_category”的声明
+     1>d:\visual studio\vc\include\xutility(371): error C2868: “std::iterator_traits<std::pair<double,double>>::iterator_category”: 非法的 using 声明语法；应输入限定名
+     1>d:\visual studio\vc\include\xutility(372): error C2039: “value_type”: 不是“std::pair<double,double>”的成员
+     1>d:\visual studio\vc\include\xutility(372): error C2146: 语法错误: 缺少“;”(在标识符“value_type”的前面)
+     1>d:\visual studio\vc\include\xutility(372): error C4430: 缺少类型说明符 - 假定为 int。注意:  C++ 不支持默认 int
+     1>d:\visual studio\vc\include\xutility(372): error C2602: “std::iterator_traits<std::pair<double,double>>::value_type”不是“std::iterator_traits<std::pair<double,double>>”基类的成员
+                 d:\visual studio\vc\include\xutility(372) : 参见“std::iterator_traits<std::pair<double,double>>::value_type”的声明
+     1>d:\visual studio\vc\include\xutility(372): error C2868: “std::iterator_traits<std::pair<double,double>>::value_type”: 非法的 using 声明语法；应输入限定名
+     1>d:\visual studio\vc\include\xutility(373): error C2039: “difference_type”: 不是“std::pair<double,double>”的成员
+     1>d:\visual studio\vc\include\xutility(373): error C2146: 语法错误: 缺少“;”(在标识符“difference_type”的前面)
+     1>d:\visual studio\vc\include\xutility(373): error C4430: 缺少类型说明符 - 假定为 int。注意:  C++ 不支持默认 int
+     1>d:\visual studio\vc\include\xutility(373): error C2602: “std::iterator_traits<std::pair<double,double>>::difference_type”不是“std::iterator_traits<std::pair<double,double>>”基类的成员
+                 d:\visual studio\vc\include\xutility(373) : 参见“std::iterator_traits<std::pair<double,double>>::difference_type”的声明
+     1>d:\visual studio\vc\include\xutility(373): error C2868: “std::iterator_traits<std::pair<double,double>>::difference_type”: 非法的 using 声明语法；应输入限定名
+     1>d:\visual studio\vc\include\xutility(375): error C2039: “pointer”: 不是“std::pair<double,double>”的成员
+     1>d:\visual studio\vc\include\xutility(375): error C2146: 语法错误: 缺少“;”(在标识符“pointer”的前面)
+     1>d:\visual studio\vc\include\xutility(375): error C4430: 缺少类型说明符 - 假定为 int。注意:  C++ 不支持默认 int
+     1>d:\visual studio\vc\include\xutility(375): error C2602: “std::iterator_traits<std::pair<double,double>>::pointer”不是“std::iterator_traits<std::pair<double,double>>”基类的成员
+                 d:\visual studio\vc\include\xutility(375) : 参见“std::iterator_traits<std::pair<double,double>>::pointer”的声明
+     1>d:\visual studio\vc\include\xutility(375): error C2868: “std::iterator_traits<std::pair<double,double>>::pointer”: 非法的 using 声明语法；应输入限定名
+     1>d:\visual studio\vc\include\xutility(376): error C2039: “reference”: 不是“std::pair<double,double>”的成员
+     1>d:\visual studio\vc\include\xutility(376): error C2146: 语法错误: 缺少“;”(在标识符“reference”的前面)
+     1>d:\visual studio\vc\include\xutility(376): error C4430: 缺少类型说明符 - 假定为 int。注意:  C++ 不支持默认 int
+     1>d:\visual studio\vc\include\xutility(376): error C2602: “std::iterator_traits<std::pair<double,double>>::reference”不是“std::iterator_traits<std::pair<double,double>>”基类的成员
+                 d:\visual studio\vc\include\xutility(376) : 参见“std::iterator_traits<std::pair<double,double>>::reference”的声明
+     1>d:\visual studio\vc\include\xutility(376): error C2868: “std::iterator_traits<std::pair<double,double>>::reference”: 非法的 using 声明语法；应输入限定名
+     1>已完成生成项目“E:\My_Code\ConsoleApplication9\ConsoleApplication9\ConsoleApplication9.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.49

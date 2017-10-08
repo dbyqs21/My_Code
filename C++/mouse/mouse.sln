@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mouse", "mouse\mouse.vcxproj", "{5A2CB57D-7398-4E09-96EF-2F4ABF3E0C28}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5A2CB57D-7398-4E09-96EF-2F4ABF3E0C28}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5A2CB57D-7398-4E09-96EF-2F4ABF3E0C28}.Debug|Win32.Build.0 = Debug|Win32
+		{5A2CB57D-7398-4E09-96EF-2F4ABF3E0C28}.Release|Win32.ActiveCfg = Release|Win32
+		{5A2CB57D-7398-4E09-96EF-2F4ABF3E0C28}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,55 @@
+# depslib dependency file v1.0
+1503919603 source:e:\my_code\c++\leetcode\main.cpp
+	<iostream>
+	<string>
+	<vector>
+	<set>
+	<algorithm>
+	<unordered_set>
+
+1503580438 source:e:\my_code\c++\leetcode\split_string.cpp
+	<vector>
+	<iostream>
+	<string>
+
+1503806452 source:e:\my_code\c++\leetcode\removeduplicates.cpp
+	<iostream>
+	<string>
+	<vector>
+	<set>
+	<algorithm>
+
+1503806534 source:e:\my_code\c++\leetcode\dungeon.cpp
+	<iostream>
+	<vector>
+	<algorithm>
+
+1503806197 source:e:\my_code\c++\leetcode\kth big of two sorted arrays.cpp
+	<iostream>
+	<string>
+	<vector>
+	<set>
+	<algorithm>
+	<climits>
+
+1503741069 source:e:\my_code\c++\leetcode\search  in rotated sorted array.cpp
+	<iostream>
+	<string>
+	<vector>
+	<set>
+	<algorithm>
+	<unordered_set>
+
+1503805314 source:e:\my_code\c++\leetcode\find kbig number of array.cpp
+	<iostream>
+	<string>
+	<vector>
+	<set>
+	<algorithm>
+	<climits>
+
+1503924624 source:e:\my_code\c++\leetcode\kolakoski.cpp
+	<cstdio>
+	<iostream>
+	<vector>
+

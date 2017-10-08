@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper    
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"    
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- 映射文件 -->
+
+
+<!-- namespace : 命令空间，对statement的信息进行分类管理 -->
+<!-- 注意在mapper代理时，它具有特殊及重要的作用 -->
+<mapper namespace="test">
+	<!-- 根据学生ID来查询学生信息 -->
+	<!-- select ：表示一个MappedStatement对象 -->
+	<!-- id:statement的唯一标识 -->
+	<!-- parameterType:输入的参数类型 -->
+	<!-- #{}里面的Sno表示输入参数的参数名称，如果该参数是简单类型（基本类型和简单包装类），那么#{}里面可以是任意的值 -->
+	<!-- resultType:输出结果的类型（单条结果的java类型） -->
+	<select id="findUserId" parameterType="String"
+		resultType="com.AndyYUE.mybatis.student">
+		select * from student where Sno = #{Sno}
+	</select>
+
+	<!-- 根据学生姓名来查询用户列表 -->
+	<!-- ${}表示sql的连接符，之间将参数中的值替换过来 #{}会在变量值的两边加上双引号 -->
+	<!-- ${value}：里面的value表示输入参数的输入名称，如果该参数是简单类型，那么${}里面的参数名称必须是value -->
+	<!-- ${} 这种写法存在sql注入风险，慎用，但是在一些情况下，必须用${}。比如排序时动态传入排序的列名。${}会原样输出，并不会做解释 -->
+	<select id="findUserByName" parameterType="String"
+		resultType="com.AndyYUE.mybatis.student">
+		Select * from student where Sname like #{name} order by Sno
+	</select>
+	
+	<select id="findUserById" parameterType="String"
+		resultType="com.AndyYUE.mybatis.student">
+		Select * from student where Sno = #{Sno} 
+	</select>
+	
+
+	<insert id="insertIntoTable" parameterType="com.AndyYUE.mybatis.student">
+		<!-- order :指定查询主键的sql和insert语句的执行顺序，相对于外面的语句（inser）来说语句来说 -->
+		<selectKey keyProperty="Sno" resultType="String" order="AFTER">
+			select LAST_INSERT_ID()
+			LAST_INSERT_ID：该函数是mysql的函数，获取自增主键的ID，它必须配和insert语句一起使用
+		</selectKey>
+		insert into student (Sno,Sname,Ssex,Sage,Sdept) values
+		(#{Sno},#{Sname},#{Ssex},#{Sage},#{Sdept})
+	</insert>
+
+	<update id="updateTable" parameterType="String">
+        update student set Sname = #{Sname} where Sno = "0"
+	</update>
+	
+	<delete id="deleteRow" parameterType="String">
+	    delete from student where Sno = #{Sno}
+	</delete>
+	
+	<!-- 综合查询 ， 查询用户列表-->
+	<select id="findUserList" parameterType="com.AndyYUE.mybatis.UserQueryVO">
+	select * from student where Sname like "%${user.Sname}%" and Ssex=#{user.Ssex} <!-- #{}中的参数名称要和包装类中的对象层级一致，并且属性名称一致 -->
+	</select>
+	
+</mapper>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-config.dtd">
+
+<!-- 加载顺序：先加载porperties中的property标签中的值，后加载引入的外部文件的中的值 -->
+<!-- parameterType的值会和properties标签中的key冲突，故在properties中的标签key添加db前缀 -->
+
+<configuration>
+	<properties resource="db.properties">  <!-- 后加载的优先 -->
+
+		<property name="db.driver" value="com.mysql.jdbc.Driver" />
+		<property name="db.url" value="jdbc:mysql://localhost:3306/school" />
+		<property name="db.username" value="root" />
+		<property name="db.password" value="Andy" />
+	</properties>
+
+	<typeAliases>
+		<!-- 定义单个别名 -->
+		<typeAlias type="com.AndyYUE.mybatis.student" alias="student" />
+		
+		<!-- 批量定义别名 （推荐）-->
+		<package name="com.AndyYUE.mybatis" /> <!-- 默认的别名就是类名（首字母大小写都行） -->
+	</typeAliases>
+
+	<environments default="development">
+		<environment id="development">
+			<transactionManager type="JDBC" />  <!-- 配置JDBC事物控制，由mybatis进行管理 -->
+			<dataSource type="POOLED"> <!-- 配种数据源，采用MyBits连接池 -->
+				<property name="driver" value="${db.driver}" />
+				<property name="url" value="jdbc:mysql://localhost:3306/school" />
+				<property name="username" value="root" />
+				<property name="password" value="Andy" />
+			</dataSource>
+		</environment>
+	</environments>
+
+	<!-- 加载映射文件 -->
+	<mappers>
+		<mapper resource="student.xml" />
+		<!-- <mapper resource="Mapper/userMapper.xml" /> -->
+		
+		<!-- 批量加载映射文件 -->
+		<package name="com.AndyYUE.mybatis" />
+		
+		<!-- 当Mapper接口的文件和映射配置文件同包同名的时候，可以使用下面的方式来加载映射文件 -->
+		<package name = "com.AndyYUE.mybatis.UserMapper" />
+	</mappers>
+
+</configuration>

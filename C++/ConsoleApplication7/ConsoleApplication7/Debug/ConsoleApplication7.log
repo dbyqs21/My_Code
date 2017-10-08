@@ -1,0 +1,133 @@
+﻿生成启动时间为 2017/5/13 21:20:54。
+     1>项目“E:\My_Code\ConsoleApplication7\ConsoleApplication7\ConsoleApplication7.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Visual Studio\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\ConsoleApplication7.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ConsoleApplication7.cpp
+         ConsoleApplication7.cpp
+     1>e:\my_code\consoleapplication7\consoleapplication7\ploynomial_.h(14): error C3867: “std::vector<std::pair<int,int>,std::allocator<_Ty>>::size”:  函数调用缺少参数列表；请使用“&std::vector<std::pair<int,int>,std::allocator<_Ty>>::size”创建指向成员的指针
+                 with
+                 [
+                     _Ty=std::pair<int,int>
+                 ]
+     1>e:\my_code\consoleapplication7\consoleapplication7\ploynomial_.h(20): error C3867: “std::vector<std::pair<int,int>,std::allocator<_Ty>>::begin”:  函数调用缺少参数列表；请使用“&std::vector<std::pair<int,int>,std::allocator<_Ty>>::begin”创建指向成员的指针
+                 with
+                 [
+                     _Ty=std::pair<int,int>
+                 ]
+     1>e:\my_code\consoleapplication7\consoleapplication7\ploynomial_.h(20): error C3536: “p”:  初始化之前无法使用
+     1>e:\my_code\consoleapplication7\consoleapplication7\ploynomial_.h(20): error C3867: “std::vector<std::pair<int,int>,std::allocator<_Ty>>::end”:  函数调用缺少参数列表；请使用“&std::vector<std::pair<int,int>,std::allocator<_Ty>>::end”创建指向成员的指针
+                 with
+                 [
+                     _Ty=std::pair<int,int>
+                 ]
+     1>e:\my_code\consoleapplication7\consoleapplication7\ploynomial_.h(20): error C2568: “!=”: 无法解析函数重载
+                 d:\visual studio\vc\include\vector(1038): 可能是“std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<std::pair<int,int>>>> std::vector<std::pair<int,int>,std::allocator<_Ty>>::end(void) throw() const”
+                 with
+                 [
+                     _Ty=std::pair<int,int>
+                 ]
+                 d:\visual studio\vc\include\vector(1033): 或       “std::_Vector_iterator<std::_Vector_val<std::_Simple_types<std::pair<int,int>>>> std::vector<std::pair<int,int>,std::allocator<_Ty>>::end(void) throw()”
+                 with
+                 [
+                     _Ty=std::pair<int,int>
+                 ]
+     1>e:\my_code\consoleapplication7\consoleapplication7\ploynomial_.h(22): error C3536: “p”:  初始化之前无法使用
+     1>e:\my_code\consoleapplication7\consoleapplication7\ploynomial_.h(24): error C3536: “p”:  初始化之前无法使用
+     1>e:\my_code\consoleapplication7\consoleapplication7\ploynomial_.h(24): error C2664: “std::_Vector_iterator<std::_Vector_val<std::_Simple_types<std::pair<int,int>>>> std::vector<std::pair<int,int>,std::allocator<_Ty>>::insert(std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<std::pair<int,int>>>>,unsigned int,const _Ty &)”: 无法将参数 1 从“int”转换为“std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<std::pair<int,int>>>>”
+                 with
+                 [
+                     _Ty=std::pair<int,int>
+                 ]
+                 无构造函数可以接受源类型，或构造函数重载决策不明确
+     1>e:\my_code\consoleapplication7\consoleapplication7\ploynomial_.h(28): error C3536: “p”:  初始化之前无法使用
+     1>e:\my_code\consoleapplication7\consoleapplication7\ploynomial_.h(30): error C3536: “p”:  初始化之前无法使用
+     1>e:\my_code\consoleapplication7\consoleapplication7\ploynomial_.h(34): error C3536: “p”:  初始化之前无法使用
+     1>e:\my_code\consoleapplication7\consoleapplication7\ploynomial_.h(34): error C3867: “std::vector<std::pair<int,int>,std::allocator<_Ty>>::end”:  函数调用缺少参数列表；请使用“&std::vector<std::pair<int,int>,std::allocator<_Ty>>::end”创建指向成员的指针
+                 with
+                 [
+                     _Ty=std::pair<int,int>
+                 ]
+     1>e:\my_code\consoleapplication7\consoleapplication7\ploynomial_.h(34): error C2568: “==”: 无法解析函数重载
+                 d:\visual studio\vc\include\vector(1038): 可能是“std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<std::pair<int,int>>>> std::vector<std::pair<int,int>,std::allocator<_Ty>>::end(void) throw() const”
+                 with
+                 [
+                     _Ty=std::pair<int,int>
+                 ]
+                 d:\visual studio\vc\include\vector(1033): 或       “std::_Vector_iterator<std::_Vector_val<std::_Simple_types<std::pair<int,int>>>> std::vector<std::pair<int,int>,std::allocator<_Ty>>::end(void) throw()”
+                 with
+                 [
+                     _Ty=std::pair<int,int>
+                 ]
+     1>e:\my_code\consoleapplication7\consoleapplication7\ploynomial_.h(62): error C3867: “std::vector<std::pair<int,int>,std::allocator<_Ty>>::begin”:  函数调用缺少参数列表；请使用“&std::vector<std::pair<int,int>,std::allocator<_Ty>>::begin”创建指向成员的指针
+                 with
+                 [
+                     _Ty=std::pair<int,int>
+                 ]
+     1>e:\my_code\consoleapplication7\consoleapplication7\ploynomial_.h(62): error C3867: “std::vector<std::pair<int,int>,std::allocator<_Ty>>::end”:  函数调用缺少参数列表；请使用“&std::vector<std::pair<int,int>,std::allocator<_Ty>>::end”创建指向成员的指针
+                 with
+                 [
+                     _Ty=std::pair<int,int>
+                 ]
+     1>e:\my_code\consoleapplication7\consoleapplication7\ploynomial_.h(62): error C2780: “void std::sort(_RanIt,_RanIt,_Pr)”: 应输入 3 个参数，却提供了 2 个
+                 d:\visual studio\vc\include\algorithm(3153) : 参见“std::sort”的声明
+     1>e:\my_code\consoleapplication7\consoleapplication7\ploynomial_.h(80): error C3867: “std::vector<std::pair<int,int>,std::allocator<_Ty>>::begin”:  函数调用缺少参数列表；请使用“&std::vector<std::pair<int,int>,std::allocator<_Ty>>::begin”创建指向成员的指针
+                 with
+                 [
+                     _Ty=std::pair<int,int>
+                 ]
+     1>e:\my_code\consoleapplication7\consoleapplication7\ploynomial_.h(81): error C3867: “std::vector<std::pair<int,int>,std::allocator<_Ty>>::begin”:  函数调用缺少参数列表；请使用“&std::vector<std::pair<int,int>,std::allocator<_Ty>>::begin”创建指向成员的指针
+                 with
+                 [
+                     _Ty=std::pair<int,int>
+                 ]
+     1>e:\my_code\consoleapplication7\consoleapplication7\ploynomial_.h(83): error C3536: “p”:  初始化之前无法使用
+     1>e:\my_code\consoleapplication7\consoleapplication7\ploynomial_.h(83): error C3867: “std::vector<std::pair<int,int>,std::allocator<_Ty>>::end”:  函数调用缺少参数列表；请使用“&std::vector<std::pair<int,int>,std::allocator<_Ty>>::end”创建指向成员的指针
+                 with
+                 [
+                     _Ty=std::pair<int,int>
+                 ]
+     1>e:\my_code\consoleapplication7\consoleapplication7\ploynomial_.h(83): error C2568: “!=”: 无法解析函数重载
+                 d:\visual studio\vc\include\vector(1038): 可能是“std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<std::pair<int,int>>>> std::vector<std::pair<int,int>,std::allocator<_Ty>>::end(void) throw() const”
+                 with
+                 [
+                     _Ty=std::pair<int,int>
+                 ]
+                 d:\visual studio\vc\include\vector(1033): 或       “std::_Vector_iterator<std::_Vector_val<std::_Simple_types<std::pair<int,int>>>> std::vector<std::pair<int,int>,std::allocator<_Ty>>::end(void) throw()”
+                 with
+                 [
+                     _Ty=std::pair<int,int>
+                 ]
+     1>e:\my_code\consoleapplication7\consoleapplication7\ploynomial_.h(83): error C3536: “q”:  初始化之前无法使用
+     1>e:\my_code\consoleapplication7\consoleapplication7\ploynomial_.h(85): error C3536: “p”:  初始化之前无法使用
+     1>e:\my_code\consoleapplication7\consoleapplication7\ploynomial_.h(85): error C3536: “q”:  初始化之前无法使用
+     1>e:\my_code\consoleapplication7\consoleapplication7\ploynomial_.h(87): error C3536: “p”:  初始化之前无法使用
+     1>e:\my_code\consoleapplication7\consoleapplication7\ploynomial_.h(87): error C2664: “ploy insertNode(ploy &,Node &)”: 无法将参数 2 从“int”转换为“Node &”
+     1>e:\my_code\consoleapplication7\consoleapplication7\ploynomial_.h(89): error C3536: “p”:  初始化之前无法使用
+     1>e:\my_code\consoleapplication7\consoleapplication7\ploynomial_.h(89): error C3536: “q”:  初始化之前无法使用
+     1>e:\my_code\consoleapplication7\consoleapplication7\ploynomial_.h(91): error C3536: “q”:  初始化之前无法使用
+     1>e:\my_code\consoleapplication7\consoleapplication7\ploynomial_.h(92): error C3536: “q”:  初始化之前无法使用
+     1>e:\my_code\consoleapplication7\consoleapplication7\ploynomial_.h(96): error C3536: “p”:  初始化之前无法使用
+     1>e:\my_code\consoleapplication7\consoleapplication7\ploynomial_.h(96): error C3536: “q”:  初始化之前无法使用
+     1>e:\my_code\consoleapplication7\consoleapplication7\ploynomial_.h(97): error C3536: “q”:  初始化之前无法使用
+     1>e:\my_code\consoleapplication7\consoleapplication7\ploynomial_.h(102): error C3536: “p”:  初始化之前无法使用
+     1>e:\my_code\consoleapplication7\consoleapplication7\ploynomial_.h(102): error C3867: “std::vector<std::pair<int,int>,std::allocator<_Ty>>::end”:  函数调用缺少参数列表；请使用“&std::vector<std::pair<int,int>,std::allocator<_Ty>>::end”创建指向成员的指针
+                 with
+                 [
+                     _Ty=std::pair<int,int>
+                 ]
+     1>e:\my_code\consoleapplication7\consoleapplication7\ploynomial_.h(102): error C2568: “!=”: 无法解析函数重载
+                 d:\visual studio\vc\include\vector(1038): 可能是“std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<std::pair<int,int>>>> std::vector<std::pair<int,int>,std::allocator<_Ty>>::end(void) throw() const”
+                 with
+                 [
+                     _Ty=std::pair<int,int>
+                 ]
+                 d:\visual studio\vc\include\vector(1033): 或       “std::_Vector_iterator<std::_Vector_val<std::_Simple_types<std::pair<int,int>>>> std::vector<std::pair<int,int>,std::allocator<_Ty>>::end(void) throw()”
+                 with
+                 [
+                     _Ty=std::pair<int,int>
+                 ]
+     1>e:\my_code\consoleapplication7\consoleapplication7\ploynomial_.h(102): fatal error C1903: 无法从以前的错误中恢复；正在停止编译
+     1>已完成生成项目“E:\My_Code\ConsoleApplication7\ConsoleApplication7\ConsoleApplication7.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.48

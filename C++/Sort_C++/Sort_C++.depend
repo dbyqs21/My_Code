@@ -1,0 +1,56 @@
+# depslib dependency file v1.0
+1503193723 source:e:\my_code\c++\sort_c++\insertsort.cpp
+	<iostream>
+
+1505633641 source:e:\my_code\c++\sort_c++\main.cpp
+	<iostream>
+	"SortTestHelper.h"
+	"selectSort.h"
+	"insertSort.h"
+	"bubbleSort.h"
+	"mergeSort.h"
+	<algorithm>
+	"quickSort.h"
+	"heapSort.h"
+
+1503929008 source:e:\my_code\c++\sort_c++\quicksort.cpp
+	<iostream>
+	<utility>
+	<algorithm>
+
+1503842525 source:e:\my_code\c++\sort_c++\heapsort.cpp
+	<iostream>
+	<algorithm>
+
+1504423682 e:\my_code\c++\sort_c++\sorttesthelper.h
+	<ctime>
+	<random>
+	<cassert>
+
+1504408571 source:e:\my_code\c++\sort_c++\selectsort.cpp
+	<iostream>
+	<utility>
+
+1504409090 e:\my_code\c++\sort_c++\selectsort.h
+	<iostream>
+	<utility>
+
+1505225348 e:\my_code\c++\sort_c++\insertsort.h
+	<iostream>
+
+1504426283 e:\my_code\c++\sort_c++\bubblesort.h
+	<iostream>
+
+1505224382 e:\my_code\c++\sort_c++\mergesort.h
+	"insertSort.h"
+	<iostream>
+
+1505307751 e:\my_code\c++\sort_c++\quicksort.h
+	<iostream>
+	<vector>
+
+1505633522 e:\my_code\c++\sort_c++\heapsort.h
+	<iostream>
+	<vector>
+	<algorithm>
+

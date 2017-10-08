@@ -1,0 +1,114 @@
+﻿生成启动时间为 2017/6/11 20:47:48。
+     1>项目“E:\My_Code\C\C_ESQL\C_ESQL\C_ESQL.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Visual Studio\VC\bin\CL.exe /c /I"D:\MySQL\mysql-5.7.18-winx64\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt c_esql.c
+         c_esql.c
+     1>e:\my_code\c\c_esql\c_esql\c_esql.c(5): error C2061: 语法错误: 标识符“SQL”
+     1>e:\my_code\c\c_esql\c_esql\c_esql.c(5): error C2059: 语法错误:“;”
+     1>e:\my_code\c\c_esql\c_esql\c_esql.c(5): error C2061: 语法错误: 标识符“DECLARE”
+     1>e:\my_code\c\c_esql\c_esql\c_esql.c(13): error C2061: 语法错误: 标识符“SQL”
+     1>e:\my_code\c\c_esql\c_esql\c_esql.c(13): error C2059: 语法错误:“;”
+     1>e:\my_code\c\c_esql\c_esql\c_esql.c(13): error C2061: 语法错误: 标识符“DECLARE”
+     1>e:\my_code\c\c_esql\c_esql\c_esql.c(15): error C2061: 语法错误: 标识符“SQL”
+     1>e:\my_code\c\c_esql\c_esql\c_esql.c(15): error C2059: 语法错误:“;”
+     1>e:\my_code\c\c_esql\c_esql\c_esql.c(15): error C2061: 语法错误: 标识符“sqlca”
+     1>e:\my_code\c\c_esql\c_esql\c_esql.c(25): error C2065: “EXEC”: 未声明的标识符
+     1>e:\my_code\c\c_esql\c_esql\c_esql.c(25): error C2146: 语法错误: 缺少“;”(在标识符“SQL”的前面)
+     1>e:\my_code\c\c_esql\c_esql\c_esql.c(25): error C2065: “SQL”: 未声明的标识符
+     1>e:\my_code\c\c_esql\c_esql\c_esql.c(25): error C2146: 语法错误: 缺少“;”(在标识符“CONNECT”的前面)
+     1>e:\my_code\c\c_esql\c_esql\c_esql.c(25): error C2065: “CONNECT”: 未声明的标识符
+     1>e:\my_code\c\c_esql\c_esql\c_esql.c(25): error C2146: 语法错误: 缺少“;”(在标识符“TO”的前面)
+     1>e:\my_code\c\c_esql\c_esql\c_esql.c(25): error C2065: “TO”: 未声明的标识符
+     1>e:\my_code\c\c_esql\c_esql\c_esql.c(25): error C2146: 语法错误: 缺少“;”(在标识符“HP”的前面)
+     1>e:\my_code\c\c_esql\c_esql\c_esql.c(25): error C2065: “HP”: 未声明的标识符
+     1>e:\my_code\c\c_esql\c_esql\c_esql.c(25): error C2059: 语法错误:“数字上的错误后缀”
+     1>e:\my_code\c\c_esql\c_esql\c_esql.c(25): error C2041: 非法的数字“8”(用于基“8”)
+     1>e:\my_code\c\c_esql\c_esql\c_esql.c(25): error C2146: 语法错误: 缺少“;”(在标识符“D6CXF128B”的前面)
+     1>e:\my_code\c\c_esql\c_esql\c_esql.c(25): warning C4552: “-”: 运算符不起任何作用；应输入带副作用的运算符
+     1>e:\my_code\c\c_esql\c_esql\c_esql.c(25): error C2065: “D6CXF128B”: 未声明的标识符
+     1>e:\my_code\c\c_esql\c_esql\c_esql.c(25): error C2065: “SQL2000”: 未声明的标识符
+     1>e:\my_code\c\c_esql\c_esql\c_esql.c(25): error C2146: 语法错误: 缺少“;”(在标识符“USER”的前面)
+     1>e:\my_code\c\c_esql\c_esql\c_esql.c(25): warning C4552: “/”: 运算符不起任何作用；应输入带副作用的运算符
+     1>e:\my_code\c\c_esql\c_esql\c_esql.c(25): error C2065: “USER”: 未声明的标识符
+     1>e:\my_code\c\c_esql\c_esql\c_esql.c(25): error C2146: 语法错误: 缺少“;”(在标识符“sa”的前面)
+     1>e:\my_code\c\c_esql\c_esql\c_esql.c(25): error C2065: “sa”: 未声明的标识符
+     1>e:\my_code\c\c_esql\c_esql\c_esql.c(26): error C2065: “EXEC”: 未声明的标识符
+     1>e:\my_code\c\c_esql\c_esql\c_esql.c(26): error C2146: 语法错误: 缺少“;”(在标识符“SQL”的前面)
+     1>e:\my_code\c\c_esql\c_esql\c_esql.c(26): error C2065: “SQL”: 未声明的标识符
+     1>e:\my_code\c\c_esql\c_esql\c_esql.c(26): error C2146: 语法错误: 缺少“;”(在标识符“DECLARE”的前面)
+     1>e:\my_code\c\c_esql\c_esql\c_esql.c(26): error C2065: “DECLARE”: 未声明的标识符
+     1>e:\my_code\c\c_esql\c_esql\c_esql.c(26): error C2146: 语法错误: 缺少“;”(在标识符“SX”的前面)
+     1>e:\my_code\c\c_esql\c_esql\c_esql.c(26): error C2065: “SX”: 未声明的标识符
+     1>e:\my_code\c\c_esql\c_esql\c_esql.c(26): error C2146: 语法错误: 缺少“;”(在标识符“CURSOR”的前面)
+     1>e:\my_code\c\c_esql\c_esql\c_esql.c(26): error C2065: “CURSOR”: 未声明的标识符
+     1>e:\my_code\c\c_esql\c_esql\c_esql.c(26): error C2146: 语法错误: 缺少“;”(在标识符“FOR”的前面)
+     1>e:\my_code\c\c_esql\c_esql\c_esql.c(27): error C2065: “FOR”: 未声明的标识符
+     1>e:\my_code\c\c_esql\c_esql\c_esql.c(27): error C2146: 语法错误: 缺少“;”(在标识符“SELECT”的前面)
+     1>e:\my_code\c\c_esql\c_esql\c_esql.c(27): error C2065: “SELECT”: 未声明的标识符
+     1>e:\my_code\c\c_esql\c_esql\c_esql.c(27): error C2146: 语法错误: 缺少“;”(在标识符“Sno”的前面)
+     1>e:\my_code\c\c_esql\c_esql\c_esql.c(27): error C2065: “Sno”: 未声明的标识符
+     1>e:\my_code\c\c_esql\c_esql\c_esql.c(27): error C2065: “Sname”: 未声明的标识符
+     1>e:\my_code\c\c_esql\c_esql\c_esql.c(27): error C2065: “Ssex”: 未声明的标识符
+     1>e:\my_code\c\c_esql\c_esql\c_esql.c(28): error C2065: “Sage”: 未声明的标识符
+     1>e:\my_code\c\c_esql\c_esql\c_esql.c(28): error C2146: 语法错误: 缺少“;”(在标识符“FROM”的前面)
+     1>e:\my_code\c\c_esql\c_esql\c_esql.c(28): error C2065: “FROM”: 未声明的标识符
+     1>e:\my_code\c\c_esql\c_esql\c_esql.c(28): error C2146: 语法错误: 缺少“;”(在标识符“Student”的前面)
+     1>e:\my_code\c\c_esql\c_esql\c_esql.c(29): error C2065: “Student”: 未声明的标识符
+     1>e:\my_code\c\c_esql\c_esql\c_esql.c(29): error C2146: 语法错误: 缺少“;”(在标识符“WHERE”的前面)
+     1>e:\my_code\c\c_esql\c_esql\c_esql.c(29): error C2065: “WHERE”: 未声明的标识符
+     1>e:\my_code\c\c_esql\c_esql\c_esql.c(29): error C2146: 语法错误: 缺少“;”(在标识符“SDept”的前面)
+     1>e:\my_code\c\c_esql\c_esql\c_esql.c(29): error C2065: “SDept”: 未声明的标识符
+     1>e:\my_code\c\c_esql\c_esql\c_esql.c(29): error C2059: 语法错误:“:”
+     1>e:\my_code\c\c_esql\c_esql\c_esql.c(30): error C2065: “EXEC”: 未声明的标识符
+     1>e:\my_code\c\c_esql\c_esql\c_esql.c(30): error C2146: 语法错误: 缺少“;”(在标识符“SQL”的前面)
+     1>e:\my_code\c\c_esql\c_esql\c_esql.c(30): error C2065: “SQL”: 未声明的标识符
+     1>e:\my_code\c\c_esql\c_esql\c_esql.c(30): error C2146: 语法错误: 缺少“;”(在标识符“OPEN”的前面)
+     1>e:\my_code\c\c_esql\c_esql\c_esql.c(30): error C2065: “OPEN”: 未声明的标识符
+     1>e:\my_code\c\c_esql\c_esql\c_esql.c(30): error C2146: 语法错误: 缺少“;”(在标识符“SX”的前面)
+     1>e:\my_code\c\c_esql\c_esql\c_esql.c(30): error C2065: “SX”: 未声明的标识符
+     1>e:\my_code\c\c_esql\c_esql\c_esql.c(34): error C2065: “EXEC”: 未声明的标识符
+     1>e:\my_code\c\c_esql\c_esql\c_esql.c(34): error C2146: 语法错误: 缺少“;”(在标识符“SQL”的前面)
+     1>e:\my_code\c\c_esql\c_esql\c_esql.c(34): error C2065: “SQL”: 未声明的标识符
+     1>e:\my_code\c\c_esql\c_esql\c_esql.c(34): error C2146: 语法错误: 缺少“;”(在标识符“FETCH”的前面)
+     1>e:\my_code\c\c_esql\c_esql\c_esql.c(34): error C2065: “FETCH”: 未声明的标识符
+     1>e:\my_code\c\c_esql\c_esql\c_esql.c(34): error C2146: 语法错误: 缺少“;”(在标识符“SX”的前面)
+     1>e:\my_code\c\c_esql\c_esql\c_esql.c(34): error C2065: “SX”: 未声明的标识符
+     1>e:\my_code\c\c_esql\c_esql\c_esql.c(34): error C2146: 语法错误: 缺少“;”(在标识符“INTO”的前面)
+     1>e:\my_code\c\c_esql\c_esql\c_esql.c(34): error C2059: 语法错误:“:”
+     1>e:\my_code\c\c_esql\c_esql\c_esql.c(36): error C2065: “sqlca”: 未声明的标识符
+     1>e:\my_code\c\c_esql\c_esql\c_esql.c(36): error C2223: “->sqlcode”的左侧必须指向结构/联合
+     1>e:\my_code\c\c_esql\c_esql\c_esql.c(50): error C2065: “EXEC”: 未声明的标识符
+     1>e:\my_code\c\c_esql\c_esql\c_esql.c(50): error C2146: 语法错误: 缺少“;”(在标识符“SQL”的前面)
+     1>e:\my_code\c\c_esql\c_esql\c_esql.c(50): error C2065: “SQL”: 未声明的标识符
+     1>e:\my_code\c\c_esql\c_esql\c_esql.c(50): error C2146: 语法错误: 缺少“;”(在标识符“UPDATE”的前面)
+     1>e:\my_code\c\c_esql\c_esql\c_esql.c(50): error C2065: “UPDATE”: 未声明的标识符
+     1>e:\my_code\c\c_esql\c_esql\c_esql.c(50): error C2146: 语法错误: 缺少“;”(在标识符“Student”的前面)
+     1>e:\my_code\c\c_esql\c_esql\c_esql.c(51): error C2065: “Student”: 未声明的标识符
+     1>e:\my_code\c\c_esql\c_esql\c_esql.c(51): error C2146: 语法错误: 缺少“;”(在标识符“SET”的前面)
+     1>e:\my_code\c\c_esql\c_esql\c_esql.c(51): error C2065: “SET”: 未声明的标识符
+     1>e:\my_code\c\c_esql\c_esql\c_esql.c(51): error C2146: 语法错误: 缺少“;”(在标识符“Sage”的前面)
+     1>e:\my_code\c\c_esql\c_esql\c_esql.c(51): error C2065: “Sage”: 未声明的标识符
+     1>e:\my_code\c\c_esql\c_esql\c_esql.c(51): error C2059: 语法错误:“:”
+     1>e:\my_code\c\c_esql\c_esql\c_esql.c(56): error C2065: “EXEC”: 未声明的标识符
+     1>e:\my_code\c\c_esql\c_esql\c_esql.c(56): error C2146: 语法错误: 缺少“;”(在标识符“SQL”的前面)
+     1>e:\my_code\c\c_esql\c_esql\c_esql.c(56): error C2065: “SQL”: 未声明的标识符
+     1>e:\my_code\c\c_esql\c_esql\c_esql.c(56): error C2146: 语法错误: 缺少“;”(在标识符“CLOSE”的前面)
+     1>e:\my_code\c\c_esql\c_esql\c_esql.c(56): error C2065: “CLOSE”: 未声明的标识符
+     1>e:\my_code\c\c_esql\c_esql\c_esql.c(56): error C2146: 语法错误: 缺少“;”(在标识符“SX”的前面)
+     1>e:\my_code\c\c_esql\c_esql\c_esql.c(56): error C2065: “SX”: 未声明的标识符
+     1>e:\my_code\c\c_esql\c_esql\c_esql.c(57): error C2065: “EXEC”: 未声明的标识符
+     1>e:\my_code\c\c_esql\c_esql\c_esql.c(57): error C2146: 语法错误: 缺少“;”(在标识符“SQL”的前面)
+     1>e:\my_code\c\c_esql\c_esql\c_esql.c(57): error C2065: “SQL”: 未声明的标识符
+     1>e:\my_code\c\c_esql\c_esql\c_esql.c(57): error C2146: 语法错误: 缺少“;”(在标识符“COMMIT”的前面)
+     1>e:\my_code\c\c_esql\c_esql\c_esql.c(57): error C2065: “COMMIT”: 未声明的标识符
+     1>e:\my_code\c\c_esql\c_esql\c_esql.c(57): error C2146: 语法错误: 缺少“;”(在标识符“WORK”的前面)
+     1>e:\my_code\c\c_esql\c_esql\c_esql.c(57): error C2065: “WORK”: 未声明的标识符
+     1>e:\my_code\c\c_esql\c_esql\c_esql.c(58): error C2065: “EXEC”: 未声明的标识符
+     1>e:\my_code\c\c_esql\c_esql\c_esql.c(58): error C2146: 语法错误: 缺少“;”(在标识符“SQL”的前面)
+     1>e:\my_code\c\c_esql\c_esql\c_esql.c(58): error C2065: “SQL”: 未声明的标识符
+     1>e:\my_code\c\c_esql\c_esql\c_esql.c(58): fatal error C1003: 错误计数超过 100；正在停止编译
+     1>已完成生成项目“E:\My_Code\C\C_ESQL\C_ESQL\C_ESQL.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:01.08

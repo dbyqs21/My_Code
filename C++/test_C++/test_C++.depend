@@ -1,0 +1,31 @@
+# depslib dependency file v1.0
+1502619855 source:e:\my_code\c++\test_c++\main.cpp
+	<iostream>
+	<stdlib.h>
+	<string.h>
+	<stdio.h>
+
+1502535722 source:e:\my_code\c++\test_c++\test1.cpp
+	<iostream>
+	<stdlib.h>
+	<string.h>
+	<stdio.h>
+
+1502535718 source:e:\my_code\c++\test_c++\test2.cpp
+	<iostream>
+	<stdlib.h>
+	<string.h>
+	<stdio.h>
+
+1502543199 source:e:\my_code\c++\test_c++\test3.cpp
+	<iostream>
+	<stdlib.h>
+	<string.h>
+	<stdio.h>
+
+1502609434 source:e:\my_code\c++\test_c++\test4.cpp
+	<iostream>
+	<stdlib.h>
+	<string.h>
+	<stdio.h>
+

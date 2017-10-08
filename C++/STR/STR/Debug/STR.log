@@ -1,0 +1,23 @@
+﻿生成启动时间为 2017/4/12 21:35:55。
+     1>项目“E:\My_Code\STR\STR\STR.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Visual Studio\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\STR.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt STR.cpp
+         STR.cpp
+     1>e:\my_code\str\str\str.cpp(12): error C2144: 语法错误:“int”的前面应有“;”
+     1>e:\my_code\str\str\str.cpp(15): error C2065: “String”: 未声明的标识符
+     1>e:\my_code\str\str\str.cpp(15): error C2146: 语法错误: 缺少“;”(在标识符“s”的前面)
+     1>e:\my_code\str\str\str.cpp(15): error C3861: “s”:  找不到标识符
+     1>e:\my_code\str\str\str.cpp(16): error C2065: “s”: 未声明的标识符
+     1>e:\my_code\str\str\str.cpp(17): error C3312: 未找到类型“unknown-type”的可调用“begin”函数
+     1>e:\my_code\str\str\str.cpp(17): error C3312: 未找到类型“unknown-type”的可调用“end”函数
+     1>e:\my_code\str\str\str.cpp(18): error C2065: “c”: 未声明的标识符
+     1>e:\my_code\str\str\str.cpp(20): error C2039: “cout”: 不是“std”的成员
+     1>e:\my_code\str\str\str.cpp(20): error C2065: “cout”: 未声明的标识符
+     1>e:\my_code\str\str\str.cpp(20): error C2065: “s”: 未声明的标识符
+     1>e:\my_code\str\str\str.cpp(20): error C2039: “endl”: 不是“std”的成员
+     1>e:\my_code\str\str\str.cpp(20): error C2065: “endl”: 未声明的标识符
+     1>已完成生成项目“E:\My_Code\STR\STR\STR.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.49

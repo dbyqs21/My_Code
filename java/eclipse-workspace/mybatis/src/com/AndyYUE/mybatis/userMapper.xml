@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper    
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"    
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- 映射文件 -->
+
+
+<!-- namespace : 命令空间，对statement的信息进行分类管理 -->
+<!-- 注意在mapper代理时，它具有特殊及重要的作用 -->
+<mapper namespace="com.AndyYUE.mybatis.UserMapper">
+	<!-- 根据学生ID来查询学生信息 -->
+	<!-- select ：表示一个MappedStatement对象 -->
+	<!-- id:statement的唯一标识 -->
+	<!-- parameterType:输入的参数类型 -->
+	<!-- #{}里面的Sno表示输入参数的参数名称，如果该参数是简单类型（基本类型和简单包装类），那么#{}里面可以是任意的值 -->
+	<!-- resultType:输出结果的类型（单条结果的java类型） -->
+	<select id="findUserId" parameterType="String"
+		resultType="com.AndyYUE.mybatis.student">
+		select * from student where Sno = #{Sno}
+	</select>
+
+	<!-- 根据学生姓名来查询用户列表 -->
+	<!-- ${}表示sql的连接符，之间将参数中的值替换过来 #{}会在变量值的两边加上双引号 -->
+	<!-- ${value}：里面的value表示输入参数的输入名称，如果该参数是简单类型，那么${}里面的参数名称必须是value -->
+	<!-- ${} 这种写法存在sql注入风险，慎用，但是在一些情况下，必须用${}。比如排序时动态传入排序的列名。${}会原样输出，并不会做解释 -->
+	<select id="findUserByName" parameterType="String"
+		resultType="com.AndyYUE.mybatis.student">
+		Select * from student
+		where Sname like #{name}
+		order by Sno
+	</select>
+
+	<select id="findUserById" parameterType="String"
+		resultType="com.AndyYUE.mybatis.student">
+		Select * from student where Sno = #{Sno}
+	</select>
+
+
+	<insert id="insertUser" parameterType="com.AndyYUE.mybatis.student">
+		<!-- order :指定查询主键的sql和insert语句的执行顺序，相对于外面的语句（inser）来说语句来说 -->
+		<selectKey keyProperty="Sno" resultType="String" order="AFTER">
+			select LAST_INSERT_ID()
+			LAST_INSERT_ID：该函数是mysql的函数，获取自增主键的ID，它必须配和insert语句一起使用
+		</selectKey>
+		insert into student (Sno,Sname,Ssex,Sage,Sdept) values
+		(#{Sno},#{Sname},#{Ssex},#{Sage},#{Sdept})
+	</insert>
+
+	<update id="updateTable" parameterType="String">
+		update student set Sname
+		= #{Sname} where Sno = "0"
+	</update>
+
+	<delete id="deleteRow" parameterType="String">
+		delete from student where
+		Sno = #{Sno}
+	</delete>
+
+	<!-- 综合查询，查询用户列表 -->
+	<select id="findUserList" parameterType="com.AndyYUE.mybatis.UserQueryVO"
+		resultType="user">
+		select * from student
+		where Sname like "%${user.Sname}%" and
+		Ssex = #{user.Ssex}
+
+
+	</select>
+
+
+	<!-- 定义SQl片段：SQL片段中可以定义SQL语句中的任意部分 -->
+	<!-- sql片段内最好不要将where和select关键字声明在内 -->
+	<sql id="whereClause">
+		<if test="user!=null">
+			<!-- if标签：可以对输入的参数进行判断 -->
+			<!-- test:指定判断表达式 -->
+			<if test="user.Sname != null and user.Sname !=''">
+				and Sno like "%${user.Sname}%"
+			</if>
+
+			<if test="user.Ssex != null and user.Ssex !=''">
+				and Ssex like "%${user.Ssex}%"
+			</if>
+		</if>
+
+		<if test="idList != null">
+			<!-- collection:表示POJO中集合属性的属性名称 item:为遍历出来的结果声明一个变量名称 -->
+			<!-- And Sno in {#{Sno},#{Sno},#{Sno}} -->
+			<!-- open：遍历开始时，需要拼接的字符串，close:遍历结束时需要拼接的字符串，separator：遍历中间需要连接的连接符 -->
+			and Sno in
+			<foreach collection="idList" item="Sno" open="(" close=")"
+				separator=",">
+				#{Sno}
+			</foreach>
+		</if>
+	</sql>
+
+
+	<!-- 综合查询，查询用户列表 -->
+	<select id="findUserCount" parameterType="com.AndyYUE.mybatis.UserQueryVO"
+		resultType="int">
+		select count(*) from student
+		<!-- where Sname like "%${user.Sname}%" and Ssex = #{user.Ssex} -->
+
+		<where> <!-- where标签：默认去掉后面的第一个AND，如果没有参数，则把自己干掉 -->
+
+			<!-- <if test="user!=null"> if标签：可以对输入的参数进行判断 test:指定判断表达式 <if test="user.Sname 
+				!= null and user.Sname !=''"> and Sno like "%${user.Sname}%" </if> <if test="user.Ssex 
+				!= null and user.Ssex !=''"> and Ssex like "%${user.Ssex}%" </if> </if> -->
+
+			<!-- 引入SQL片段 -->
+			<include refid="whereClause" />
+
+		</where>
+	</select>
+
+
+
+
+	<!-- resultMap入门 -->
+	<resultMap type="user" id="UserResultMap">
+		<id column="Sno_" property="Sno" />  <!-- 专门为查询结果中的唯一咧映射 -->
+		<result column="Sname_" property="Sname" /> <!-- 专门为查询结果中的普通列映射 -->
+		<result column="Ssex_" property="Ssex" /> <!-- 专门为查询结果中的普通列映射 -->
+	</resultMap>
+
+	<select id="findUserResultMap" parameterType="String" resultMap="UserResultMap">
+		Select Sno Sno_,Sname Sname_,Ssex Ssex_ from student where
+		Sno = #{Sno}
+	</select>
+
+
+</mapper>

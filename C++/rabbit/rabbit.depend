@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1501897490 source:e:\my_code\rabbit\main.cpp
+	<iostream>
+	<utility>
+	<vector>
+

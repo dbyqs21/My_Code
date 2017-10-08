@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1507450257 source:e:\my_code\c++\online_test\main.cpp
+	<iostream>
+	<vector>
+	<algorithm>
+	<stdio.h>
+	<map>
+	"programknowledge.h"
+
+1506242713 e:\my_code\c++\online_test\programknowledge.h
+	<iostream>
+	<string>
+	<stdlib.h>
+	<cstring>
+	<string.h>
+	<vector>
+

@@ -1,0 +1,41 @@
+﻿生成启动时间为 2016/4/25 22:45:55。
+     1>项目“E:\My_Code\calculare7.8\calculare7.8\calculare7.8.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Visual Studio\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt calculate7.8.cpp
+         calculate7.8.cpp
+     1>e:\my_code\calculare7.8\calculare7.8\calculate7.8.cpp(65): error C2065: “ts”: 未声明的标识符
+     1>e:\my_code\calculare7.8\calculare7.8\calculate7.8.cpp(65): error C2228: “.get”的左边必须有类/结构/联合
+                 类型是“unknown-type”
+     1>e:\my_code\calculare7.8\calculare7.8\calculate7.8.cpp(65): error C2512: “Token”: 没有合适的默认构造函数可用
+     1>e:\my_code\calculare7.8\calculare7.8\calculate7.8.cpp(70): error C2065: “ts”: 未声明的标识符
+     1>e:\my_code\calculare7.8\calculare7.8\calculate7.8.cpp(70): error C2228: “.get”的左边必须有类/结构/联合
+                 类型是“unknown-type”
+     1>e:\my_code\calculare7.8\calculare7.8\calculate7.8.cpp(70): error C2512: “Token”: 没有合适的默认构造函数可用
+     1>e:\my_code\calculare7.8\calculare7.8\calculate7.8.cpp(74): error C3861: “expression”:  找不到标识符
+     1>e:\my_code\calculare7.8\calculare7.8\calculate7.8.cpp(76): error C2143: 语法错误 : 缺少“;”(在“return”的前面)
+     1>e:\my_code\calculare7.8\calculare7.8\calculate7.8.cpp(75): error C3861: “define_name”:  找不到标识符
+     1>e:\my_code\calculare7.8\calculare7.8\calculate7.8.cpp(84): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\my_code\calculare7.8\calculare7.8\calculate7.8.cpp(95): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\my_code\calculare7.8\calculare7.8\calculate7.8.cpp(106): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\my_code\calculare7.8\calculare7.8\calculate7.8.cpp(137): error C2065: “ts”: 未声明的标识符
+     1>e:\my_code\calculare7.8\calculare7.8\calculate7.8.cpp(137): error C2228: “.get”的左边必须有类/结构/联合
+                 类型是“unknown-type”
+     1>e:\my_code\calculare7.8\calculare7.8\calculate7.8.cpp(137): error C2512: “Token”: 没有合适的默认构造函数可用
+     1>e:\my_code\calculare7.8\calculare7.8\calculate7.8.cpp(141): error C3861: “declaration”:  找不到标识符
+     1>e:\my_code\calculare7.8\calculare7.8\calculate7.8.cpp(143): error C2065: “ts”: 未声明的标识符
+     1>e:\my_code\calculare7.8\calculare7.8\calculate7.8.cpp(143): error C2228: “.putback”的左边必须有类/结构/联合
+                 类型是“unknown-type”
+     1>e:\my_code\calculare7.8\calculare7.8\calculate7.8.cpp(144): error C3861: “expression”:  找不到标识符
+     1>e:\my_code\calculare7.8\calculare7.8\calculate7.8.cpp(154): error C2065: “ts”: 未声明的标识符
+     1>e:\my_code\calculare7.8\calculare7.8\calculate7.8.cpp(154): error C2228: “.get”的左边必须有类/结构/联合
+                 类型是“unknown-type”
+     1>e:\my_code\calculare7.8\calculare7.8\calculate7.8.cpp(154): error C2512: “Token”: 没有合适的默认构造函数可用
+     1>e:\my_code\calculare7.8\calculare7.8\calculate7.8.cpp(155): error C2065: “print”: 未声明的标识符
+     1>e:\my_code\calculare7.8\calculare7.8\calculate7.8.cpp(369): error C2065: “prompt”: 未声明的标识符
+     1>e:\my_code\calculare7.8\calculare7.8\calculate7.8.cpp(372): error C2065: “print”: 未声明的标识符
+     1>e:\my_code\calculare7.8\calculare7.8\calculate7.8.cpp(372): fatal error C1903: 无法从以前的错误中恢复；正在停止编译
+     1>已完成生成项目“E:\My_Code\calculare7.8\calculare7.8\calculare7.8.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:01.61

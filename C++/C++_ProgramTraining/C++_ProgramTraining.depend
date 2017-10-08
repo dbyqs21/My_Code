@@ -1,0 +1,36 @@
+# depslib dependency file v1.0
+1505309273 source:e:\my_code\c++\c++_programtraining\eight_queeu.cpp
+	<iostream>
+	<stdlib.h>
+
+1505569861 source:e:\my_code\c++\c++_programtraining\main.cpp
+	<iostream>
+	<string>
+	<vector>
+	<algorithm>
+	<map>
+
+1503114034 source:e:\my_code\c++\c++_programtraining\test1.cpp
+	<stdio.h>
+	<iostream>
+	<vector>
+	<array>
+	<utility>
+
+1505309684 source:e:\my_code\c++\c++_programtraining\test2.cpp
+	<iostream>
+
+1505309992 source:e:\my_code\c++\c++_programtraining\test4.cpp
+	<iostream>
+	<vector>
+
+1505567881 source:e:\my_code\c++\c++_programtraining\test5.cpp
+	<iostream>
+	<string>
+	<vector>
+	<algorithm>
+	<map>
+
+1505568074 source:e:\my_code\c++\c++_programtraining\test6.cpp
+	<stdio.h>
+

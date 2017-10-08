@@ -1,0 +1,35 @@
+# depslib dependency file v1.0
+1500952022 source:e:\my_code\c++\beautifulcode\fabonacci.cpp
+	<iostream>
+
+1500963272 source:e:\my_code\c++\beautifulcode\maxdifference.cpp
+	<iostream>
+	<climits>
+	<stdlib.h>
+
+1501053893 source:e:\my_code\c++\beautifulcode\main.cpp
+	<iostream>
+	<string>
+	<stdlib.h>
+
+1500971422 source:e:\my_code\c++\beautifulcode\maxsum.cpp
+	<iostream>
+	<climits>
+
+1500971398 source:e:\my_code\c++\beautifulcode\lis.cpp
+	<iostream>
+
+1500973108 source:e:\my_code\c++\beautifulcode\arrayrightshift.cpp
+
+1501040013 source:e:\my_code\c++\beautifulcode\phonenumber2word.cpp
+	<stdio.h>
+	<stdlib.h>
+
+1501042075 source:e:\my_code\c++\beautifulcode\stringsimilarity.cpp
+	<iostream>
+
+1501054239 source:e:\my_code\c++\beautifulcode\reverselinkedlist.cpp
+	<iostream>
+	<stdlib.h>
+	<cstddef>
+
